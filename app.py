@@ -13,12 +13,9 @@ camera =CameraOBJ()
 
 def get_ai_data():
     while True:
-        data = f"{camera.jenis_mobil};{camera.license_plate};{camera.status_subsidi}" 
+        data = f"{camera.jenis_mobil};{camera.status_subsidi}" 
         yield f"data: {data}\n\n"
         time.sleep(1)
-
-
-
 
 #INI BAGIAN ROUTE UNTUK WEB APABILA INGIN MENAMBAH BOLEHH
 @app.route('/video_feed')
@@ -38,10 +35,6 @@ def dashboard_request():
 @app.route('/')
 def index():
     return render_template('main.html')
-
-
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)
