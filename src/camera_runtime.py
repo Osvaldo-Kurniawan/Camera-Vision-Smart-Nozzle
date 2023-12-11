@@ -41,7 +41,7 @@ class CameraOBJ:
         else :
             self.status_subsidi = 0
             self.jenis_mobil = f"Predict.."
-        print(response, self.status_subsidi)
+        # print(response, self.status_subsidi)
 
         return response
     
