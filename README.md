@@ -11,7 +11,7 @@
 ## Deskripsi
 Repository ini menyajikan implementasi sistem integrasi kamera yang dilengkapi dengan deteksi objek secara real-time oleh model object detection. Sistem ini memanfaatkan kamera web untuk menangkap frame, dan menggunakan model deteksi objek dari Roboflow API untuk mengidentifikasi objek pada setiap frame. Deteksi objek ini dapat berguna dalam pengenalan objek khusus.
 
-## Fitur
+## Fitur Aplikasi
 - Deteksi Objek Real-Time:
 Sistem ini mampu melakukan deteksi objek secara langsung pada frame yang ditangkap oleh kamera, memberikan informasi aktual tentang objek yang terdeteksi serta menggunakan thread untuk mengirim data ke roboflow.
 
