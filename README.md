@@ -1,4 +1,4 @@
-# RSBP Project
+# Smart Nozzle
 
 ## Contributors
 
